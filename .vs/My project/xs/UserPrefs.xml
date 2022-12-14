@@ -1,14 +1,18 @@
 ﻿<Properties StartupConfiguration="{32C3BDE6-E125-3128-82C1-25D0441455A3}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../Documents/GitHub/Prototype-1-JOSHUA/Assets/scripts/FollowPlayer.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="1" Column="2" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="34" Column="1" />
+      <File FileName="Assets/Scripts/FollowPlayer.cs" Line="21" Column="1" />
+      <File FileName="../../../Documents/GitHub/Prototype-1-JOSHUA/Assets/scripts/FollowPlayer.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="My project" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
-              <Node name="Scripts" expanded="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="FollowPlayer.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -17,7 +21,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="412bf0c3-56cb-4922-8c1e-e5e4e5054a3f" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="48f7330e-e67f-4a21-9065-48efe8d0867a" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

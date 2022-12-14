@@ -8547,7 +8547,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 8
+  m_VersionIndex: 17
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -8630,7 +8630,7 @@ GameObject:
   - component: {fileID: 4072081259976871846}
   - component: {fileID: 7487577680209086861}
   - component: {fileID: 2174903998202948789}
-  - component: {fileID: -889810445486477715}
+  - component: {fileID: 1756953489104009869}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -8940,7 +8940,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 4789
+  m_VersionIndex: 4798
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -9032,7 +9032,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!114 &-889810445486477715
+--- !u!114 &1756953489104009869
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9044,3 +9044,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25aa1d975c32b477295343e4b1498ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startSpeed: 10
+  speed: 10
+  turnspeed: 125

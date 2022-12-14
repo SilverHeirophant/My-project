@@ -31,6 +31,7 @@ public class PlayerController : MonoBehaviour
         {
             sneak = speed / 2;
             speed = sneak;
+
         }
         else if (Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKeyUp(KeyCode.RightShift))
         {
