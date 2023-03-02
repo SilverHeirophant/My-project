@@ -9,19 +9,23 @@ public class PlayerController : MonoBehaviour
     private float horizontalInput;
     private float forwardInput;
     public float turnspeed = 100.0f;
+    private float xRange = 98.0f;
+    private float zRange = 97.0f;
+    public GameObject projectilePrefab;
     float sneak;
+    Vector3 lookDirection = new Vector3(1, 0, 0);
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
         //Declarations
-       
+
         horizontalInput = Input.GetAxis("Horizontal");
         forwardInput = Input.GetAxis("Vertical");
         //move character
@@ -38,9 +42,31 @@ public class PlayerController : MonoBehaviour
             speed = startSpeed;
         }
 
-        
+        if (transform.position.x < -xRange)
+        {
+            transform.position = new Vector3(-xRange, transform.position.y, transform.position.z);
+        }
 
+        if (transform.position.z < -zRange)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y, -zRange);
+        }
+
+        if (transform.position.x > xRange)
+        {
+            transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
+        }
+
+        if (transform.position.z > zRange)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y, zRange);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+
+        }
 
     }
-
-}
+} 
